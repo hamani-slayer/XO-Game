@@ -49,10 +49,10 @@ function handleClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = 'Draw!'
+    winningMessageTextElement.innerText = 'Draw! think harder'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's" : "X's"} Wins!`
-  }
+    winningMessageTextElement.innerText = `${circleTurn ? "O's Wins! x the losser" : "X's Wins! o's the losser"}`
+    }
   winningMessageElement.classList.add('show')
 }
 
@@ -87,3 +87,12 @@ function checkWin(currentClass) {
     })
   })
 }
+
+// single player
+// easy
+// Medeim
+// hard 
+// imposible
+
+
+
