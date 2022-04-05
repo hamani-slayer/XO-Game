@@ -49,10 +49,10 @@ function handleClick(e) {
 
 function endGame(draw) {
   if (draw) {
-    winningMessageTextElement.innerText = 'Draw! think harder'
+    winningMessageTextElement.innerText = 'Draw! why not try again'
   } else {
-    winningMessageTextElement.innerText = `${circleTurn ? "O's Wins! x the losser" : "X's Wins! o's the losser"}`
-    }
+    winningMessageTextElement.innerText = `${circleTurn ? "O's Wins! X is the losser" : "X's Wins! O the losser"} `
+  }
   winningMessageElement.classList.add('show')
 }
 
@@ -94,5 +94,5 @@ function checkWin(currentClass) {
 // hard 
 // imposible
 
-
+// or maybe no
 
